@@ -22,10 +22,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="shiro-demo" />
+      </profile>
+      <profile default="false" name="Annotation profile for shiro" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="shiro" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="shiro" target="1.7" />
       <module name="shiro-demo" target="1.7" />
     </bytecodeTargetLevel>
   </component>
