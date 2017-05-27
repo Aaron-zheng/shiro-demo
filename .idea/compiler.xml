@@ -17,23 +17,16 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
-      <profile default="false" name="Annotation profile for shiro-demo" enabled="true">
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-      </profile>
-      <profile default="false" name="Annotation profile for shiro" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="shiro" />
+        <module name="shiro-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="shiro" target="1.7" />
-      <module name="shiro-demo" target="1.7" />
+      <module name="shiro-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
