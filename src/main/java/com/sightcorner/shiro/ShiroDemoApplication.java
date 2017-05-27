@@ -9,4 +9,6 @@ public class ShiroDemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ShiroDemoApplication.class, args);
 	}
+
+
 }

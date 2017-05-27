@@ -7,8 +7,12 @@
 </head>
 
 <body>
-<p th:text="'login, hello world ' + ${name} ">output</p>
-
+<p>登录页面</p>
+<form action="login">
+    name: <input name="name" value="Aaron"/>
+    password: <input name="password" value="123456"/>
+    <button type="submit">登录</button>
+</form>
 </body>
 
 </html>
